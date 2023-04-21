@@ -19,8 +19,12 @@ while True:
         print("Escolha uma das letras disponíveis!")
         continue
 
+# > LOOP PARA SAIR DO JOGO ↓
+
     if user_choice == 'q':
         break
+
+# > ALGORITMO DO NPC ↓
 
     npc_choice = random.randint(0, 2)
     # 0:R / 1:T / 2:P
